@@ -1,0 +1,128 @@
+body {
+  /* font */
+  font-family: "Ubuntu", sans-serif !important;
+  margin: 1rem;
+  line-height: 2;
+  min-height: 100vh;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+i {
+  color: white;
+}
+
+/* footer links */
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #50BCDE;
+}
+
+footer span {
+  text-transform: uppercase;
+}
+
+footer .header {
+  color: gray;
+}
+
+/* color palette */
+
+/* primaryBlue */
+.bg-primaryBlue {
+  background-color: #50BCDE;
+  color: #062228;
+}
+
+.text-primaryBlue {
+  color: #50BCDE;
+}
+
+.btn-primaryBlue {
+  background-color: #50BCDE;
+  color: #062228;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-primaryBlue:hover {
+  background-color: #062228;
+  color: #50BCDE;
+}
+
+/* secondaryYellow */
+.bg-secondaryYellow {
+  background-color: #E9CA5B;
+  color: #393909;
+}
+
+.text-secondaryYellow {
+  color: #E9CA5B;
+}
+
+.btn-secondaryYellow {
+  background-color: #E9CA5B;
+  color: #393909;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-secondaryYellow:hover {
+  background-color: #393909;
+  color: #E9CA5B;
+}
+
+/* accentRed */
+.bg-accentRed {
+  background-color: #FD846C;
+  color: #3A0C03;
+}
+
+.text-accentRed {
+  color: #FD846C;
+}
+
+.btn-accentRed {
+  background-color: #FD846C;
+  color: #3A0C03;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-accentRed:hover {
+  background-color: #3A0C03;
+  color: #FD846C;
+}
+
+/* unordered list */
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.bullets-none {
+  list-style-type: none;
+}
+
+/* image overlays */
+#postsecondary img {
+  filter: grayscale(1);
+  opacity: 0.25;
+}
+
+#postsecondary img:hover {
+  filter: grayscale(0);
+}
