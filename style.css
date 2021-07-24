@@ -1,5 +1,6 @@
 body {
   /* font */
+  padding-top: 50px;
   font-family: "Ubuntu", sans-serif !important;
   margin: 1rem;
   line-height: 2;
@@ -119,10 +120,6 @@ footer .header {
 
 /* image overlays */
 #postsecondary img {
-  filter: grayscale(1);
+  filter: grayscale(0.5);
   opacity: 0.25;
-}
-
-#postsecondary img:hover {
-  filter: grayscale(0);
 }
